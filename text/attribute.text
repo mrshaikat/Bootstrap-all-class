@@ -1,0 +1,289 @@
+
+Bootstrap developed by twitter Developer
+
+--------------- Bootstrap color(9)------
+primary
+secondary
+success
+
+info 
+warning 
+danger 
+
+dark 
+light 
+white 
+
+----------- Text Bootstrap Class ----
+text-color 
+text-align(left, right, center, justify)
+text-uppercase (lowercase, capitalize)
+display-1 (2,3,4)
+lead 
+small 
+font-weight-bold (bolder, normal, light, lighter)
+font-italic 
+text-decoration-none 
+list-inline 
+list-untyled 
+
+----------- Buttons Class ----
+btn 
+btn-color 
+btn-outline-color 
+active 
+disable 
+spinner-border
+spinner-border-sm
+spinner-grow-sm 
+
+------------btn-size-----
+btn-sm
+btn-lg 
+
+-------------Button group---
+btn-group 
+btn-group-sm/lg 
+btn-group-vertical 
+
+------------- Table Class -----
+table 
+table-striped 
+table-bordered 
+table-hover 
+table-color 
+table-borderless
+thead-dark 
+table-responsive 
+
+--------------Image Class----
+img-thumbnail
+img-fluid 
+rounded
+rounded-circle 
+
+
+------------- Jumbotron class---
+Jumbotron 
+jubbotron-fluid
+
+
+------------ Alert Class--------
+alert
+alert-color (Exp: alert-danger)
+in a button tag write there class="close" data-dismiss="alert"
+
+
+------------ Badge Class --------
+badge 
+badge-color 
+padge-pill 
+
+----------- Progress Bar class -----
+progress
+progress-bar 
+progress-bar-striped
+progress-bar-animated 
+
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%;">
+            70% 
+        </div>
+    </div>
+
+----------- Spinner class -----
+spinner-border
+spinner-border-sm 
+spinner-grow
+spinner-grow-sm 
+text-color 
+
+--------- Pagination Class --------
+pagination
+page-item 
+page-link 
+active 
+disable 
+pagination-size 
+
+--------- Breadcrumbs Class --------
+breadcrumb
+breadcrumb-item 
+
+
+-------- List Group --------
+list-group
+list-group-item 
+active
+list-group-item-action 
+list-group-flush 
+lish-group-horizontal 
+
+-------- Dropdown Class --------
+dropdown-menu 
+dropdown-item 
+dropdown 
+dropup 
+dropdown-divider 
+active 
+disable 
+data-toggle = "dropdown"
+
+-------- Collapse Class --------
+
+data-toggle = "Collapse"
+data-target="#demo "
+Collapse
+
+----------Accordion class-----
+same as collapse 
+extra clas data-parent 
+ 
+---------  Modal class (It use for signin and signup option er jnnno) -----
+
+modal fade 
+modal-dialog 
+modal-content
+    modal-header 
+    modal-body 
+    modal-footer 
+data-toggle = "modal"
+
+<div class="box9 mb-5 mt-5">
+            <button class=" btn btn-outline-primary" data-toggle="modal" data-target="#m1">Modal</button>
+
+            <div id="m1" class=" modal fade">
+                <div class=" modal-dialog">
+                    <div class=" modal-content">
+                        <div class=" modal-header"></div>
+                        <div class=" modal-body"></div>
+                        <div class=" modal-footer"></div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+
+
+
+------------ Form Class -----
+form-group 
+form-control 
+form-inline 
+
+
+input-group 
+input-group-prepend 
+input-group-text 
+input-group-append 
+
+
+------------- Tooltip Class/ popoer class -----
+data-toggle 
+title= "tooltip title here"
+jQuery run 
+data-content
+
+
+-----  Toast-----------
+toast 
+toast-header 
+toast-body 
+jQuery run 
+data-autohide = "false"
+
+---------- width and height class ----
+w (width)
+h (height)
+w-100 (75,50,25)
+h-100 (75,50,25)
+
+----------- Margin and Padding Class ---------
+m (margin)
+p (padding)
+t (top)
+b (bottom)
+l (left)
+r (right)
+x (left, right)
+y (top, bottom)
+4px, 8px, 16px, 24px, 48px (1, 2, 3, 4, 5)
+mx-auto 
+
+----------- Border and Border-radius Class ---------
+
+border 
+border-0 
+border-top-0
+border-bottom-0 
+border-left-0
+border-right-0 
+border-color 
+
+
+rounded 
+rounded-top 
+rounded-bottom 
+rounded-left 
+rounded-right 
+rounded-circle 
+rounded-0 
+
+---------- Nav Class -------
+nav 
+nav-item 
+nav-link 
+nav-tabs 
+nav-pill 
+
+--------- Tabs ----------
+tab-content 
+tab-pane fade 
+data-toggle="pill"
+--------------------------Carousel class ----------
+        //For slider 
+        carousel slide 
+        carousel-inner 
+        carousel-item active
+        data-ride = "carousel"
+
+        //For navigation
+        carousel-control-prev / carousel-control-next 
+        carousel-control-prev-icon / carousel-control-next-icon
+        data-slide= "prev/next"
+        <a href='main slider ID'>
+
+
+        //For bulet 
+        carousel-indicators
+        data-slide-to = "0,1,2"
+        data-target ="slider main id"
+        active
+
+------------ Grid system ------
+     container 
+     row 
+     col-screen-width
+
+            //Screen 
+            mobile   - (0px-575px)
+            sm - (576px - 767px)  - For tab 
+            md - (768px - 991px)  - For PC 
+            lg - (992px - 1199px) - For HD screen 
+            xl - (1200px ++   )  -  
+
+            //Width 
+                - 12 ( Full Width 100% )
+                - 6  ( 50% width )
+                - 3  ( 25% width )
+                - now calculate 12 to any screen :) 
+
+
+------------ navbar class ------------
+navbar navbar-expand-sm bg-color 
+navbar-nav 
+nav-item 
+nav-link 
+navbar-brand 
+navbar-toggler 
+navbar-toggler-icon 

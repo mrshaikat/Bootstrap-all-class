@@ -1,0 +1,40 @@
+.colotnameee{
+    width: 80%;
+    margin: auto;
+}
+
+.box12 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.box14{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.immm img{
+    width: 100%;
+    height: 500px;
+}
+
+.buletsize li{
+    width: 20px;
+    height: 20px;
+    border: 2px double white;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.buletsize li.active{
+    background-color: #ccc;
+}
+
+.nnnn{
+    margin-top: 200px;
+    width: 100%;
+    height: 100px;
+}
